@@ -13,20 +13,54 @@ body{
 .navbar{
     display: inline-flex;
     float:right;
-    margin-top: -30px;
-}
-h2{
-color: white;
-text-align: left;
+    margin-top : -45px;
+
+
 }
 
+
 .tartalom{
-    color: black;
-    background-color: grey;
+    color: white;
+    background-color: #222222;
     text-align: center;
     float: right;
 
 
+}
+
+.piadina{
+    color: white;
+    font-size: 32px;
+    padding: 30px;
+    text-align: center;
+    float: left;
+    }
+    
+    
+.tortenetunk{
+        color: white;
+        text-align: left;
+        float: left;
+        padding: 10px;
+        margin: 5px;
+        margin-right: 170px ;
+        margin-top: 130px;
+        font-size: 15px;
+        
+    }
+
+p{
+    color: aliceblue;
+    text-align: center;
+    float: right;
+    padding: 10px;
+    margin: 40px;
+    margin-top: -50px;
+    margin-left: 100px ;
+}
+
+a :hover{
+color: white;
 }
 
 a:link, a:visited, a:active{
