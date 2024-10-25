@@ -83,6 +83,58 @@ a:link, a:visited, a:active{
 }
 
 .elerhetoseg{
-    margin-right: 530px;
+    text-align: left;
     margin-top: 5px;
+    float: left;
+}
+
+
+.menu{
+    text-align: center;
+    
+}
+
+.ajanlatunk{
+    text-align: left;
+
+    font-size: large;
+    margin-right: 545px;
+}
+
+.panel{
+    margin: 10px;
+    width: 10px;
+    text-align: center;
+}
+
+.panel1{
+    border-style: solid;
+    text-align: center;
+    margin-left: 215px;
+    border-color: white;
+    float: left;
+    padding: 7px;
+    width: 120px;
+}
+
+.panel2{
+    border-style: solid;
+    text-align: center;
+    margin-left: 80px;
+    border-color: white;
+    float: left;
+    padding: 7px;
+    width: 120px;
+}
+
+.panel3{
+    border-style: solid;
+    text-align: center;
+    border-color: white;
+    margin-left: 90px;
+    float: left;
+    padding: 7px;
+    width: 120px;
+
+    
 }
