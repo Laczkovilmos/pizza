@@ -24,7 +24,9 @@ body{
     background-color: #222222;
     text-align: center;
     float: right;
-
+    border: 100px;
+    padding: 50px;
+    margin-bottom: auto;
 
 }
    
@@ -33,7 +35,7 @@ div{
   padding: 30px;
 }
 
-.h4{
+.pizza{
     color: white;
     font-size: 32px;
     width: 100%;
@@ -60,6 +62,20 @@ div{
         
     }
 
+    .elerhetoseg{
+        text-align: left;
+        margin-top: 5px;
+        margin-left: 10px;
+        margin-right: 420px;
+        margin-bottom: auto;
+        
+    }
+     
+    .leiras{
+        margin-left: 250px;
+        margin-top: -50px;
+    }
+
 p{
     color: aliceblue;
     text-align: justify;
@@ -82,29 +98,37 @@ a:link, a:visited, a:active{
     text-decoration: none;
 }
 
-.elerhetoseg{
-    text-align: left;
-    margin-top: 5px;
-    float: left;
-}
 
-
-.menu{
+ menu{
+    width: 400px;
+    border: 200px;
+    padding: 100px;
+ }
+.menu1{
     text-align: center;
+    margin: 50px;
+    height: 100%;
+    width: 100%;
+
     
 }
 
 .ajanlatunk{
-    text-align: left;
-
+    text-align: center;
     font-size: large;
-    margin-right: 545px;
+    
+}
+
+.szoveg{
+    text-align: center;
+
 }
 
 .panel{
     margin: 10px;
     width: 10px;
     text-align: center;
+    margin: 85px;
 }
 
 .panel1{
@@ -119,6 +143,8 @@ a:link, a:visited, a:active{
     margin-left: 2%;
     margin-right: 2%;
     float: none;
+    margin-top: 100px;
+    margin-left: 370px;
 }
 
 .panel2{
@@ -133,6 +159,7 @@ a:link, a:visited, a:active{
     margin-left: 2%;
     margin-right: 2%;
     float: none;
+    margin-top: 100px;
 }
 
 .panel3{
@@ -147,9 +174,5 @@ a:link, a:visited, a:active{
     margin-left: 2%;
     margin-right: 2%;
     float: none;
-
-  
-    
-
-    
+    margin-top: 100px;
 }
