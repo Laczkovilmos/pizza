@@ -114,13 +114,14 @@ a:link, a:visited, a:active{
 }
 
 .ajanlatunk{
-    text-align: center;
-    font-size: large;
+    text-align: center
+    
     
 }
 
 .szoveg{
     text-align: center;
+    margin-left: 150px;
 
 }
 
@@ -175,4 +176,30 @@ a:link, a:visited, a:active{
     margin-right: 2%;
     float: none;
     margin-top: 100px;
+}
+
+
+.specialitasok{
+    text-align: center;
+}
+
+.nyitvatartas{
+    background-color: #222222;
+}
+
+.alul1{
+    margin-left: 43px;
+    text-align: left;
+
+    
+}
+
+.alul2{
+
+    text-align: center;
+    text-align: justify;
+}
+
+.alul3{
+    text-align: right;
 }
