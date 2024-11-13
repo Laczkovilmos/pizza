@@ -181,6 +181,7 @@ a:link, a:visited, a:active{
 
 .specialitasok{
     text-align: center;
+    width: 10px;
 }
 
 .nyitvatartas{
@@ -202,4 +203,30 @@ a:link, a:visited, a:active{
 
 .alul3{
     text-align: right;
+}
+
+
+.elsopizza{
+width: 10px;
+height: 10px;
+}
+
+.husok{
+    width: 50px;
+    height: 40px;
+}
+
+.zoldsegek{
+    width: 50px;
+    height: 40px;
+}
+
+.masikpizza{
+    width: 50px;
+    height: 40px;
+}
+
+.levesek{
+    width: 50px;
+    height: 40px;
 }
