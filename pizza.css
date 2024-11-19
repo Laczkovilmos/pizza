@@ -188,6 +188,7 @@ a:link, a:visited, a:active{
     background-color: #222222;
     width: 100%;
     height: 100%;
+    
 }
 
 .alul1{
@@ -204,52 +205,38 @@ a:link, a:visited, a:active{
     margin-bottom: auto;
     margin-left: 350px;
     width: 100%;
+    
 }
 
 .alul3{
     
     width: 100%;
-    margin-left: 650px;
-    margin-bottom: 500px;
-    margin-top: -500px;
+    float: left;
+    margin-top: -570px;
+    margin-right: 100px;
+    margin-left: 750px;
 }
 
+.szoveg2{
+    margin-top: -500px;
+    margin-left: 750px;
+    margin-right: 100px;
+    height: 100%;
+}
+
+.foglalj{
+margin-left: 750px;
+margin-top: -500px;
+}
 
 .ido{
     margin: auto;
     padding: 10px;
     border-bottom: solid 1px;
     margin-right: 65%;
-}
-.Masodik{
-    border-bottom: solid 1px;
-    margin-right: 65%;
-}
-
-.Harmadik{
-    border-bottom: solid 1px;
-    margin-right: 65%;
-}
-
-.Negyedik{
-    border-bottom: solid 1px;
-    margin-right: 65%;
-}
-
-.Otodik{
-    border-bottom: solid 1px;
-    margin-right: 65%;
-}
-
-.Hatodik{
-    border-bottom: solid 1px;
-    margin-right: 65%;
-}
-
-.Hetedik{
-    border-bottom: solid 1px;
-    margin-right: 65%;
-}
+    margin-left: 350px;
+    width: 250px;
+    }
 
 
 .elsopizza{
