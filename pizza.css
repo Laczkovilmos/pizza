@@ -181,7 +181,15 @@ a:link, a:visited, a:active{
 
 .specialitasok{
     text-align: center;
-    width: 10px;
+    background-color: #222222;
+    width: 100%;
+    min-height: 450px;
+}
+
+.specko{
+    text-align: center;
+    float: inline-start;
+    margin-left: 450px;
 }
 
 .nyitvatartas{
@@ -226,7 +234,14 @@ a:link, a:visited, a:active{
 
 .foglalj{
 margin-left: 750px;
-margin-top: -500px;
+
+
+}
+
+.elerhetoseg{
+    margin-top: -100px;
+    margin-left: 150px;
+    
 }
 
 .ido{
@@ -235,31 +250,35 @@ margin-top: -500px;
     border-bottom: solid 1px;
     margin-right: 65%;
     margin-left: 350px;
-    width: 250px;
+    width: 300px;
     }
 
 
 .elsopizza{
-width: 10px;
-height: 10px;
+width:50px;
+height: 50px;
+
 }
 
 .husok{
-    width: 50px;
-    height: 40px;
+    width:50px;
+    height: 50px;
 }
-
 .zoldsegek{
-    width: 50px;
-    height: 40px;
+    margin-top: 150px;
+    width:50px;
+    height: 50px;
+    margin-right: 450px;
 }
 
 .masikpizza{
-    width: 50px;
-    height: 40px;
+    margin-right: 550px;
+    width:50px;
+    height: 50px;
 }
 
 .levesek{
-    width: 50px;
-    height: 40px;
+    width:50px;
+    height: 50px;
+
 }
