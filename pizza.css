@@ -134,19 +134,14 @@ h1{
     grid-row-start: 1;
     grid-row-end: 3;
   
-    /** Alternative Syntax **/
-    /* grid-column: 3 / span 2;  */
-    /* grid-row: 1 / span 2; */
+
   }
   .gallery__item--3 {
     grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 1;
     grid-row-end: 6;
-  
-    /** Alternative Syntax **/
-    /* grid-column: 5 / span 4;
-    grid-row: 1 / span 5; */
+
   }
   
   .gallery__item--4 {
@@ -154,10 +149,7 @@ h1{
     grid-column-end: 5;
     grid-row-start: 3;
     grid-row-end: 6;
-  
-    /** Alternative Syntax **/
-    /* grid-column: 1 / span 4;  */
-    /* grid-row: 3 / span 3; */
+
   }
   
   .gallery__item--5 {
@@ -166,9 +158,6 @@ h1{
     grid-row-start: 6;
     grid-row-end: 9;
   
-    /** Alternative Syntax **/
-    /* grid-column: 1 / span 4; */
-    /* grid-row: 6 / span 3; */
   }
   
   .gallery__item--6 {
@@ -176,10 +165,7 @@ h1{
     grid-column-end: 9;
     grid-row-start: 6;
     grid-row-end: 9;
-  
-    /** Alternative Syntax **/
-    /* grid-column: 5 / span 4; */
-    /* grid-row: 6 / span 3; */
+
   }
   .parent {
     display: grid;
@@ -250,6 +236,9 @@ footer, a{
 #webnode{
     text-align: center;
     margin: 0 auto;
+    display: flex;
+    margin-left: 550px;
+    width: 100%;
 }
 .parent3 {
     display: grid;
@@ -282,10 +271,10 @@ footer, a{
     
     .div11 { grid-area: 1 / 1 / 8 / 21; 
     margin-bottom: 3%;}
-    .div12 { grid-area: 8 / 1 / 11 / 8; 
+    .div12 { grid-area: 8 / 6 / 11 / 8; 
         ;
        }
-    .div13 { grid-area: 8 / 8 / 11 / 14; 
+    .div13 { grid-area: 8 / 10 / 11 / 15; 
         }
     .div14 { grid-area: 8 / 14 / 11 / 21; 
         
