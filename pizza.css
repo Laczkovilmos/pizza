@@ -1,11 +1,12 @@
 #fejlec{
     background-image: url(images/fejlec-elsokep.jpg);
     width: 100%;
-    height: 450px;
+    height: 430px;
     margin: 0 auto;
     background-size: cover;
     background-position-y: 41%;
     box-shadow: 0px 10px 5px #000000, 0px -10px 5px #000000;
+    padding: 30px;
 
 }
 body{
@@ -24,7 +25,7 @@ body{
     padding: 0;
     margin-top: -3%;
     margin-left: 10px;
-    margin-right: 15px; 
+    margin-right: 40px; 
 }
 
 li {
@@ -75,6 +76,8 @@ h1{
 .menu2{
     text-align: center;
     margin-top: 5%;
+    padding: 20px;
+    
 }
 
 .ajanlataink{
@@ -177,11 +180,48 @@ h1{
     height:500px;
     margin: 0 auto;
     }
+
+
+    #pizzairas{
+        margin-top: -30px;
+        text-align: center;
+        color: white;
+        font-style: oblique;
+    }
+    
+    #husiras{
+        margin-top: -30px;
+        text-align: center;
+        color: white;
+        font-style: oblique;
+    }
+
+    #salata{
+        margin-top: -30px;
+        text-align: center;
+        color: white;
+        font-style: oblique;
+    }
+
+    #pizzairas2{
+        margin-top: -30px;
+        text-align: center;
+        color: white;
+        font-style: oblique;
+    }
+
+    #leves{
+        margin-top: -30px;
+        text-align: center;
+        color:  white;
+        font-style: oblique;
+    }
+
     .div1 { grid-area: 1 / 1 / 6 / 7; }
     .div2 { grid-area: 1 / 7 / 7 / 10; }
     .div3 { grid-area: 6 / 1 / 10 / 4; }
     .div4 { grid-area: 6 / 4 / 10 / 7; }
-    .div5 { grid-area: 7 / 7 / 10 / 10; }
+    .div5 { grid-area: 7 / 7 / 12/ 10; }
     .gallery__img {
         width: 100%;
         height: 100%;
@@ -189,7 +229,9 @@ h1{
     }
 .specialitas{
     background-color: rgb(34,34,34);
-    padding-bottom: 30px;
+    padding-bottom: 90px;
+    margin-top: 50px;
+    padding-top: 1px;
 }
 #hr-nyitva{
     width: 40%;
@@ -232,6 +274,7 @@ footer, a{
 #lablec{
     text-align: center;
     float: none;
+    padding: 30px;
 }
 #webnode{
     text-align: center;
@@ -239,6 +282,7 @@ footer, a{
     display: flex;
     margin-left: 550px;
     width: 100%;
+    margin-top: -35px;
 }
 .parent3 {
     display: grid;
@@ -271,12 +315,12 @@ footer, a{
     
     .div11 { grid-area: 1 / 1 / 8 / 21; 
     margin-bottom: 3%;}
-    .div12 { grid-area: 8 / 6 / 11 / 8; 
+    .div12 { grid-area: 9 / 7 / 10 / 8; 
         ;
        }
-    .div13 { grid-area: 8 / 10 / 11 / 15; 
+    .div13 { grid-area: 9 / 9 / 11 / 16; 
         }
-    .div14 { grid-area: 8 / 14 / 11 / 21; 
+    .div14 { grid-area: 9 / 13 / 11 / 19; 
         
         }
 
