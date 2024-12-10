@@ -58,6 +58,7 @@ h1{
 }
 #szoveg{
     font-size: 18px;
+    display: block;
     
 }
 
@@ -128,12 +129,14 @@ h1{
 }
 
 .gallery__item--1 {
+    display: block;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
 }
 .gallery__item--2 {
+    display: block;
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 1;
@@ -142,6 +145,7 @@ h1{
 
   }
   .gallery__item--3 {
+    display: block;
     grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 1;
@@ -150,6 +154,7 @@ h1{
   }
   
   .gallery__item--4 {
+    display: block;
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 3;
@@ -158,6 +163,7 @@ h1{
   }
   
   .gallery__item--5 {
+    display: block;
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 6;
@@ -166,6 +172,7 @@ h1{
   }
   
   .gallery__item--6 {
+    display: block;
     grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 6;
@@ -329,7 +336,7 @@ footer, a{
         }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
 
 
 
@@ -393,6 +400,7 @@ h1{
 }
 #szoveg{
     font-size: 18px;
+    display: block;
     
 }
 
@@ -441,12 +449,10 @@ h1{
 
 
 .menu{
+    display: block;
     color: white;
     border: 1px, solid, white;
-    padding: 15px 50px  ;
-
-    display: inline;
-
+    padding: 15px 50px;
     font-size: 20px;
     border: 1px white solid;
 }
@@ -724,6 +730,7 @@ h1{
 }
 #szoveg{
     font-size: 15px;
+    display: block;
     
 }
 
