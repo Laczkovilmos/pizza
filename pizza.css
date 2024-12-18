@@ -1,4 +1,4 @@
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 650px) {
 #fejlec{
     background-image: url(images/fejlec-elsokep.jpg);
     width: 100%;
@@ -10,6 +10,8 @@
     padding: 30px;
 
 }
+
+
 body{
     background-color: black;
     color: white;
@@ -334,7 +336,8 @@ footer, a{
         }
 }
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 650px) {
     #fejlec{
         background-image: url(images/fejlec-elsokep.jpg);
         width: 100%;
@@ -361,5 +364,203 @@ footer, a{
         float: left;
         display: block;
         
+    }
+}
+
+
+#navbar, ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+li {
+    float: right;
+}
+
+a {
+    display: block;
+    background-color: #dddddd;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+#p {
+    margin-top: -1%;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+
+.kozep {
+    background-color: rgb(34, 34, 34);
+}
+
+#FOGLALJ {
+    font-weight: bold;
+}
+
+#szoveg {
+    font-size: 18px;
+    display: block;
+}
+
+.boxharom {
+    width: 60%;
+    text-align: center;
+    float: none;
+}
+
+.menu1 {
+    background-color: black;
+    height: 350px;
+    width: 100%;
+}
+
+.menu2 {
+    text-align: center;
+    margin-top: 5%;
+    padding: 20px;
+}
+
+.ajanlataink {
+    text-align: center;
+    font-size: 15px;
+}
+
+.szoveg {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#elemek {
+    text-align: center;
+    border-color: white;
+    margin-top: 5%;
+    margin: 0 auto;
+}
+
+.menu {
+    color: white;
+    border: 1px solid white;
+    padding: 15px 50px;
+    display: flex;
+    font-size: 20px;
+    border: 1px white solid;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.specialitas {
+    background-color: rgb(34, 34, 34);
+    padding-bottom: 90px;
+    margin-top: 50px;
+    padding-top: 1px;
+}
+
+#pizzairas, #husiras, #salata, #pizzairas2, #leves {
+    margin-top: -30px;
+    text-align: center;
+    color: white;
+    font-style: oblique;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #fejlec {
+        height: 300px;
+        padding: 15px;
+    }
+
+    .boxharom {
+        width: 100%;
+    }
+
+    .menu1, .menu2, .ajanlataink {
+        text-align: center;
+    }
+
+
+
+    .menu {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .parent, .parent3{
+        display: block;
+        width: 100%;
+        background-color: #222;
+    }
+
+    .div1, .div2, .div3, .div4, .div5 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .div6, .div7, .div8 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .div6 {
+        font-size: 20px;
+    }
+
+    .div7 {
+        font-size: 16px;
+    }
+
+    .div8 {
+        font-size: 16px;
+    }
+}
+
+/* Ha nagyobb képernyő van */
+@media screen and (min-width: 430px) {
+
+
+    .menu {
+        font-size: 20px;
+        display: inline-block;
+    }
+
+    #fejlec {
+        height: 430px;
+        background-position: 41%;
     }
 }
