@@ -1,3 +1,11 @@
+h2{
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+.menu{
+    text-align: center;
+}
 @media screen and (min-width: 650px) {
 #fejlec{
     background-image: url(images/fejlec-elsokep.jpg);
@@ -71,6 +79,7 @@ h1{
     float: none;
     
 }
+
 
 .menu1{
     background-color: black;
@@ -378,6 +387,8 @@ footer, a{
 
 li {
     float: right;
+    margin-top: -20px;
+    margin-right: 10px;
 }
 
 a {
@@ -434,8 +445,9 @@ h1 {
 
 .szoveg {
     text-align: center;
-    margin-left: 20px;
+    margin-left: 250px;
     margin-right: 20px;
+    width: 750px;
 }
 
 #elemek {
